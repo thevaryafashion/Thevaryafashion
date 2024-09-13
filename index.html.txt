@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Protected Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Access Protected Content</h1>
+        <form id="codeForm">
+            <label for="codeInput">Enter Code:</label>
+            <input type="text" id="codeInput" required>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="content" class="hidden">
+            <h2>Welcome to the Protected Content</h2>
+            <img src="example-image.jpg" alt="Example Image">
+            <p>This content is visible only when the correct code is entered.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
